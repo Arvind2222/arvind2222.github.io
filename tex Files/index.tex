@@ -29,7 +29,7 @@
 \email{arvind.m2@tcs.com}
 \homepage{arvibd.me}{\color{cyan}https://arvibd.me} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 \photo[80pt][0.4pt]{pictures/dsc.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-\quote{"Let's live our dreams alive"}
+%\quote{"Let's live our dreams alive"}
 
 %----------------------------------------------------------------------------------------
 
@@ -41,11 +41,11 @@
 \makecvtitle % Print the CV title
 
 %--------------------------------------------------------------------
-
-\section{Major Project}
+\section{Work Experience}
+\subsection{Major Project}
 
 \cvitem{Title}{\emph{Smart conversational shopping assistant}}
-\cvitem{Description}{A conversational shopping assistant AI bot that helps user buy product at the best price from various providers. It remembers the user's preference and helps by giving recommendation. The bot uses NLP and Machine Learning for the conversational flow, Query optimisation and scaline decomposition for recommendation on incomplete dataset. The backend is based on django and processing is done via \emph{scikit-learn} and \emph{tensor Flow}. The dialog flow is based on \emph{Google dialog flow}. Springer paper link for the same will be available after peer review.}
+\cvitem{Description}{A conversational shopping assistant AI bot that helps user buy product at the best price from various providers. It remembers the user's preference and helps by giving recommendation. The bot uses NLP and Machine Learning for the conversational flow, Query optimisation and scaline decomposition for recommendation on incomplete dataset. The backend is based on django and processing is done via \emph{scikit-learn} and \emph{tensor Flow}. The dialog flow is based on \emph{Google dialog flow}. Springer paper for the same will be available after approval }
 
 %----------------------------------------------------------------------------------------
 %	Projects
@@ -54,8 +54,7 @@
 
 \section{Paper}
 
-
-\cventry{title}{Alfred - Conversational Shopping AI bot}{\textsc{NLP, Query optimisation, nltk}}{}{}{ A Springer paper published on conversational shopping assistant bot. \emph{Springer paper} is under peer review. First draft of the 
+\cventry{title}{Alfred - Conversational Shopping AI bot}{\textsc{NLP, Query optimisation, DialogFlow}}{}{}{ A Springer paper published on conversational shopping assistant bot. \emph{Springer paper} is under peer review. First draft of the 
 \href{https://www.dropbox.com/s/xkgjpawjezbnm6g/paper.pdf?dl=0
 }{\color{blue} IEEE} paper }
 \cventry{title}{2FA authentication mechnaism}{\textsc{MFA, 2FA, hashing, timestamp}}{}{}{ A paper on python cryptographic hash function and use of multi-factor authentication in various standard libraries}
@@ -73,10 +72,13 @@
 \cventry{iOS}{Fed-Or-Not-FedHead}{\textsc{iOS UI Basic}}{}{}{
 iOS app for a Federer fans test. Just a basic quiz app. \href{https://github.com/Arvind2222/fedOrNotFed}{\color{blue}github repo} }
 
-\cventry{django}{Learning Log}{\textsc{python Django}}{}{}{
+
+\cventry{}{Text Summarize}{\textsc{NLTK, Python}}{}{}{ A working Text news Summarizer. The project takes a the web address as an input and find the main content using Beautiful Soup BS4 and then gives user the summary of the page. Made in collaboration with \href{ainpayal2494@gmail.com}{\color{blue}Payal Jain M.Tech.} GitHub repo -> \href{https://github.com/Arvind2222/Text_Summarization}{\color{blue}text Summarizer}}
+
+\cventry{django}{Learning Log}{\textsc{Django}}{}{}{
 The app for the academics. Very useful for thesis and those who want to summarise their studies everyday. Automatic feeds from the amazon goodreads \href{https://github.com/Arvind2222/learning-Log}{\color{blue}Learning-log} }
 
-\cventry{django}{Django Blog}{\textsc{python Django}}{}{}{Blog using Django with MVC framework. My First website developed using a MVC framework. Learned how to configure and host on a heroku. }
+\cventry{django}{Django Blog}{\textsc{Django}}{}{}{Blog using Django with MVC framework. My First website developed using a MVC framework. Learned how to configure and host on a heroku. }
 
 \cventry{iOS}{breakpoint}{\textsc{iOS Firebase }}{}{}{Simple iOS game with firebase as backend \href{https://github.com/Arvind2222/breakpoint}{\color{blue}Breakpoint app repo} }
 
@@ -89,16 +91,51 @@ The app for the academics. Very useful for thesis and those who want to summaris
 
 \cventry{2011--2016}{legfeet.com}{\textsc{DNS, domain registrations, A-records}}{}{}{ I \emph{had} a website - legfeet.com (- every thing at your feet), The Site was used as an ecommerce platform using woo-commerce. And have been maintaining it since then. Based on the Wordpress installation. The site was active for 8 years. I created the site in my 9$^th$ grade and was in production till 2016}
 
-\cventry{project}{Blog reader app}{\textsc{Android app, JSON, Wordpress plugins}}{}{}{ I have a website - \href{lyrianablog.wordpress.com}{\color{blue}lyrianablog} The website contains poems and writings with good tone towards life as an adult. I needed an app for the same so users can view the same. A blog reader app reading the JSON from the site and rendering it same to the view was the way to go}
+\cventry{project}{Blog reader app}{\textsc{iOS, JSON, Wordpress plugins}}{}{}{ I have a website - \href{lyrianablog.wordpress.com}{\color{blue}lyrianablog} The website contains poems and writings with good tone towards life as an adult. I needed an app for the same so users can view the same. A blog reader app reading the JSON from the site and rendering it same to the view was the way to go}
 
 \cventry{Social welfare}{offline wikipedia}{\textsc{SQL Dumps, CMS, Wikimedia}}{}{}{ Wikipedia releases the content every day in form of tar files. They call it dumps. There's a method to make the site available offline. I used of the methods to provide offline Wikipedia in rural area for children. This was mentioned and verified by Teach for India. And even appreciated and was given internship for the same}
 
-\cventry{project}{Gprofiler}{\textsc{Github API, Angular, HTML}}{}{}{ 
-	Github Profile search with basic Angular using Github API}
-
-\cventry{\texttt{edx}}{Linux}{\textsc{SSH, samba, Shell, filesystems}}{}{}{ Passed with 90\% \href{https://verify.edx.org/cert/4849aee4d06b4a7a9bc7f64a39e597d7}{\color{blue} certificate verify}}
+\cventry{blog}{ghost}{\textsc{SSL,backend, DNS, A-records}}{}{}{ 
+	Ghost Blog for the custom domain \href{https://arvibd.me}{\color{blue}arvibd.me}}
 
 %--------------------------------------------------------------------
+
+\section{Certification}
+
+\cvitem{}{\textsc{Advanced Java Programming} \href{https://www.lynda.com/ViewCertificate/87EB180541944978A475DCD897BDF971}{\color{blue}Certificate}}
+
+
+\cvitem{}{\textsc{Linux} \href{https://verify.edx.org/cert/4849aee4d06b4a7a9bc7f64a39e597d7}{\color{blue} Linux Certificate}}
+
+\cvitem{}{\textsc{[Python, Optimisations, Generators]}  Optimizing Python Code
+\href{https://www.lynda.com/ViewCertificate/0CAE94472BC34CAAA6A0CD43FF59F5FF}{\color{blue}Python Code Optimisations}}
+
+\cvitem{}{\textsc{[Python, Itertools, Collections]}
+Python 3 \href{https://www.lynda.com/ViewCertificate/2E7C5DD1E5D34E9C9AD0F5D216BB50E4}{\color{blue}Python 3 STL Certificate}}
+
+\cvitem{}{\textsc{[iOS, Firebase]} \href{https://www.lynda.com/ViewCertificate/3030E12F35784A8581783FED832B4C32}{
+\color{blue} iOS Development with Firebase Certificate
+}}
+
+\cvitem{}{
+\textsc{[Java 9, Streams, Functional Programming]} 
+Functional Programming with Streams in Java 9
+\href{https://www.lynda.com/ViewCertificate/02E6485B128440089CEE2824B4984DAA}{
+\color{blue}Java 9 Certificate}}
+
+\cvitem{}{
+\textsc{[Machine Learning, Python, Numpy]} Building a Recommendation System with Python Machine Learning \& AI \href{https://www.lynda.com/ViewCertificate/A2CBF88210064E8EB63D37049C9A81B8}{
+\color{blue}
+Certificate
+}}
+
+\cvitem{}{
+\textsc{[Java, APIs, Collections]} 
+Java Essential Training: Objects and APIs \href{https://www.lynda.com/ViewCertificate/95C5566F702A4D09BE270982886A5668}{
+\color{blue}
+Certificate
+}}
+
 
 \section{Programming Languages}
 
@@ -108,17 +145,14 @@ The app for the academics. Very useful for thesis and those who want to summaris
 \cvitem{Web }{\textsc{HTML, CSS}}
 \cvitem{OS}{\textsc{ Windows, Linux, macOS, open Solaris}}
 
-
 \section{Programming skills}
-\cvitem{OS}{I have a hands-on experience in operations on various Open-source projects and OS like Sun solaris, I have handled Debian and other Linux variants. I used macOS as a main OS and ubuntu with i3 dwm.}
-
-\cvitem{algorithms}{I am always aware of the performance runtimes and their impact on the systems. My \href{https://www.codechef.com/users/arvind2222}{\color{blue}Codechef} profile}
+\cvitem{algorithms}{I am always aware of the performance runtimes and their impact on the systems. My \href{https://www.codechef.com/users/arvind2222}{\color{blue}Codechef} profile. \href{https://www.dropbox.com/sh/rv418ekui895ewb/AAAO_Egco_T2gacyXpO2WJ3Za?dl=0}{\color{blue}ML Algorithms} [SVM, PCA, Logistic, ID3, Naive Bayes}
 
 %\section{Certification}
 
 \section{Books and drafts}
 \cvitem{Poem}{ Some of the poems on self and topic that are close to my heart. The book is available at \href{https://www.amazon.com/Youth-Poems-rooted-Arvind-Mishra-ebook/dp/B07CX46F4H/ref=sr_1_1?ie=UTF8&qid=1529053424&sr=8-1}{\color{blue} amazon} }{}
-\cvitem{Non Fiction}{Currently in progress. About the socio and economic impact on the livings of the person without a conscience}{}
+%\cvitem{Non Fiction}{Currently in progress. About the socio and economic impact on the livings of the person without a conscience}{}
 
 \section{Presentations}
 
