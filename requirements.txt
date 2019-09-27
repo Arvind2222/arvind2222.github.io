@@ -26,5 +26,3 @@ slackclient==1.3.0
 google-cloud-bigquery==1.15.0
 zeep==3.4.0
 requests_ntlm==1.1.0
--e git+git@gitlab.com:fynd/pycommon.git@0.2.1#egg=pycommon
--e git+git@gitlab.com:fynd/regrowth/core-platform/slingshot-client.git@v1.0.3#egg=pyslingshot
