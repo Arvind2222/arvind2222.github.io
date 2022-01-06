@@ -2,7 +2,7 @@ sanic==19.3.1
 ipython
 uvloop==0.12.2
 marshmallow==2.15.3
-celery==4.3.0
+celery==5.2.2
 redis==3.2.1
 aioredis==1.2.0
 Sanic-Cors==0.9.8
